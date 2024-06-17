@@ -25,7 +25,7 @@ def __config_logger():
 app = Quart(__name__)
 app = cors(
     app,
-    allow_origin=["http://UI:2000"],  # TODO добавить адреса, откуда разрешено принимать запросы
+    allow_origin=["http://UI:2000"],  # Добавить адреса, откуда разрешено принимать запросы
     allow_credentials=True,  # Разрешить использование куки
     allow_methods=["GET", "POST", "OPTIONS", "PUT", "DELETE"],  # Разрешенные методы
     allow_headers=["Content-Type", "Authorization"],  # Разрешенные заголовки
