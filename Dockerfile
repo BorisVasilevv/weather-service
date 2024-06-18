@@ -19,5 +19,5 @@ CMD ["python", "weatherService.py"]
 # Откроем порт для внешних подключений
 EXPOSE 7777
 
-# docker build -t weatherService .
-# docker run -p 7777:7777 --name weatherService weatherService
+# docker build -t weather-service .
+# docker run -p 7777:7777 --name weather-service weather-service
