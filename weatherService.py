@@ -13,7 +13,7 @@ logger = logging.getLogger()
 
 
 def __config_logger():
-    file_log = logging.FileHandler('TravelRouteService.log')
+    file_log = logging.FileHandler('weatherService.log')
     console_log = logging.StreamHandler()
     FORMAT = '[%(levelname)s] %(asctime)s : %(message)s | %(filename)s'
     logging.basicConfig(level=INFO,
